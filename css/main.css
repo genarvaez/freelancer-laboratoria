@@ -1,3 +1,229 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+.nav{
+	background-color: #1D364F;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 110px;
+	width: 100%;
+	z-index: 1;	
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo a{
+	font-size: 2em;
+	color: white;
+	font-weight: bolder;	
+}
+.logo{
+	padding: 20px 0 0 40px;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	padding:  30px;
+}
+
+.menu ul li a{
+	color: white;
+	font-weight: bolder;	
+	font-size: 0.9em;
+}
+.menu ul li a:hover{
+	color: #3CD9A7;
+}
+.bg-container{
+	background-color: #3CD9A7;
+	margin: 110px auto;	
+}
+.profile-start, .about-start, .about-button, .cont-footer{
+	text-align: center;
+}
+.profile-start h1{
+	color: white;
+	font-size: 4em;
+}
+.custom-start{
+	height: 5px;
+	width: 20%;
+	background-color: white;
+	margin: 20px auto;
+
+}
+.custom-start i{
+	background-color: #3CD9A7;
+	color: white;
+	padding: 0px 5px;	
+	text-align: center;
+	padding-bottom: 20px;
+	margin: -12px;
+
+}
+.profile-start h2{
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 80px;
+	font-weight: 400;
+}
+.title{
+	text-align: center;
+	font-size: 2em;
+	margin: 80px auto 10px;
+}
+.color{
+	background-color: #030223;
+}
+.color i{
+	background-color: white;
+	color: #030223;
+	font-size: 1em;
+	padding: 2px;
+	position: relative;
+	bottom: 19px;
+}
+.about-start h1{
+	color: white;
+	font-size: 2.3em;
+	margin: 80px auto 10px;
+}
+.text{
+	color: white;
+	font-size: 1.2em;
+}
+.text p{
+	
+	padding: 30px 0 0px 220px;
+}
+.text.two p{
+	padding: 30px 200px 0px 0px;
+}
+.about-button #download{
+	background-color: #3CD9A7;
+	border-radius: 5px;
+	border: 2px solid white;
+	width: 18%;
+	height: 40px;
+	color: white;
+	font-size: 1.2em;
+	text-align: right;
+	padding-right: 10px;
+	margin-bottom: 100px;
+}
+.about-button i{
+	padding: 10px;
+}
+.col-12 input{
+	border: none;
+	border-top: 1px solid #E7E7E7;
+	height: 50px;
+	padding: 30px 600px 30px 0;
+}
+.col-12 input[placeholder="Message"]{
+	border-bottom: 1px solid #E7E7E7;
+	padding-bottom: 150px;
+}
+input::-webkit-input-placeholder {
+  font-size: 2em;
+}
+.col-12 #send{
+	position: relative;
+	top: 0;
+	right: 350px;
+	background-color: #3CD9A7;
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	color: white;
+	font-size: 0.6em;
+	margin: 10px auto 100px;
+	border: none;
+	cursor: pointer;
+}
+/*FOOTER*/
+.cont-footer button{
+	background-color: #303450;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 2px solid white;
+	color: white;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+.footer{
+	background-color: #303450;
+	color: white;
+} 
+.cont-footer h1{
+	font-size: 1.4em;
+	margin: 40px auto 60px;
+}
+.cont-footer a{
+	color: #3CD9A7;
+}
+.nav-footer{
+	width: 100%
+	height: 30px;
+	background-color: #030223;
+	padding: 10px;
+	text-align: center;	
+}
+.nav-footer h5{
+	font-weight: 400;
+}
+
+#box-work-modal{
+  background-color: rgba(0, 144, 104, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*MODAL*/
+#modal-portfolio-box{
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 2;
+}
+.bgModal{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 500px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 100px;
+  border: 15px solid white;
+}
+#close{
+  position: relative;
+  bottom: 490px;
+  left: 340px;
+  cursor: pointer;
+  width: 40px;
+}
+.bgModal img{
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+
+}
+.hide{
+  display: none;
+}
+
