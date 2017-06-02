@@ -16,7 +16,6 @@
 a{
 	text-decoration: none;
 }
-
 .logo a{
 	font-size: 2em;
 	color: white;
@@ -46,21 +45,21 @@ a{
 	background-color: #3CD9A7;
 	margin: 110px auto;	
 }
-.profile-start, .about-start, .about-button, .cont-footer{
+.profile-star, .about-star, .about-button, .cont-footer{
 	text-align: center;
 }
-.profile-start h1{
+.profile-star h1{
 	color: white;
 	font-size: 4em;
 }
-.custom-start{
+.custom-star{
 	height: 5px;
 	width: 20%;
 	background-color: white;
 	margin: 20px auto;
 
 }
-.custom-start i{
+.custom-star i{
 	background-color: #3CD9A7;
 	color: white;
 	padding: 0px 5px;	
@@ -69,7 +68,7 @@ a{
 	margin: -12px;
 
 }
-.profile-start h2{
+.profile-star h2{
 	color: white;
 	font-size: 1.5em;
 	margin-bottom: 80px;
@@ -91,7 +90,7 @@ a{
 	position: relative;
 	bottom: 19px;
 }
-.about-start h1{
+.about-star h1{
 	color: white;
 	font-size: 2.3em;
 	margin: 80px auto 10px;
@@ -192,7 +191,7 @@ input::-webkit-input-placeholder {
 }
 /*MODAL*/
 #modal-portfolio-box{
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: white;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -201,17 +200,19 @@ input::-webkit-input-placeholder {
   margin: 0;
   z-index: 2;
   text-align: center;
+  overflow: scroll;
 }
 
 #close{
   position: absolute;
-  top: 30px;
-  right: 230px;
+  top: 20px;
+  right: 25px;
   cursor: pointer;
   width: 40px;
+  color: black;
 }
 .bgModal img{
-  width: 70%;
+  width: 60%;
 }
 .hide{
   display: none;
@@ -219,4 +220,26 @@ input::-webkit-input-placeholder {
 
 .size img:hover{
 	background-color: #3CD9A7;
+}
+.bgModal p{
+	padding: 10px 210px;
+}
+input[value="CLOSE"]{
+	background-color: white;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	border: 1px solid#E7E7E7;
+}
+#modal-portfolio-box h1{
+	margin: 60px 0 10px;
+}
+#modal-portfolio-box .color .fa{
+	position: relative;
+	bottom: 10px;
+	background-color: white;
+}
+#modal-portfolio-box p{
+	padding: 20px 240px 20px;
 }
